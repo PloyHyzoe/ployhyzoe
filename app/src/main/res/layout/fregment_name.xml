@@ -58,7 +58,7 @@
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_action_password"
+                android:src="@drawable/ic_action_password"/>
             <!--textfield-->
             <EditText
                 android:hint="User"
@@ -72,7 +72,7 @@
 <Button
     android:text="@string/Login_th"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="wrap_content"/>
 
 
         <!--register-->
