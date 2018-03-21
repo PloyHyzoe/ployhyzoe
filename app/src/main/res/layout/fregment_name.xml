@@ -4,6 +4,7 @@
 
     <!--content-->
     <LinearLayout
+        android:background="#a8ffbed9"
         android:padding="16dp"
         android:layout_margin="50dp"
         android:orientation="vertical"
@@ -61,7 +62,7 @@
                 android:src="@drawable/ic_action_password"/>
             <!--textfield-->
             <EditText
-                android:hint="User"
+                android:hint="Password"
                 android:inputType="numberPassword"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
