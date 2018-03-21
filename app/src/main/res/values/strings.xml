@@ -3,4 +3,7 @@
 
     <string name="Login_th">ลงชื่อเข้าใช้</string>
     <string name="Register">สมัครใช้งาน</string>
+    <string name="nameString">ชื่อ</string>
+    <string name="userString">Username</string>
+    <string name="passwordString">password</string>
 </resources>
