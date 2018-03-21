@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.example.administrator.ployhyzoe.R;
 
@@ -14,6 +15,27 @@ import com.example.administrator.ployhyzoe.R;
  */
 
 public class MainFregment extends Fragment{
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        //register controller
+        TextView textView = getView().findViewById(R.id.txtreg);
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               // Replace Fregment
+               getActivity().getSupportFragmentManager()
+                       .beginTransaction()
+                       .replace(R.id.contentmainfragment,new RegisterFregment())
+                       .addToBackStack(null)
+                       .commit();
+
+
+            }
+        });
+    }//main medthod
 
     @Nullable
     @Override

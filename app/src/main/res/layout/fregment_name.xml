@@ -80,10 +80,11 @@
 
 
             <TextView
+                android:id="@+id/txtreg"
                 android:layout_gravity="center"
                 android:textColor="@color/colorAccent"
                 android:layout_marginTop="10dp"
-                 android:textStyle="bold"
+                android:textStyle="bold"
                 android:textSize="18dp"
                 android:text="@string/Register"
                 android:layout_width="wrap_content"
