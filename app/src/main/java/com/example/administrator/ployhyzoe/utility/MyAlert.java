@@ -23,22 +23,22 @@ public class MyAlert {
         builder.setIcon(R.drawable.ic_action_name);
         builder.setTitle(titlestring);
         builder.setMessage(messageString);
-        builder.setPositiveButton(text"ok",new DialogInterface.OnCancelListener() {
+        builder.setPositiveButton("ok", new DialogInterface.OnClickListener() {
             @Override
-            public void onClick(DialogInterface dialogInterface, int which) {
-
-                dialogInterface .dismiss() ;
-
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
             }
-        }};
+        });
+        builder.show();
+
+
+
+
+
         }
 
 
 
 
 
-    }
-
-
-
-} // Main Class
+    }            // Main Class

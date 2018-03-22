@@ -37,6 +37,7 @@
                     android:src="@drawable/ic_action_user"/>
                        <!--textfield-->
             <EditText
+                android:id="@+id/edtuser"
                 android:hint="User"
                 android:inputType="text"
                 android:layout_width="match_parent"
@@ -62,6 +63,7 @@
                 android:src="@drawable/ic_action_password"/>
             <!--textfield-->
             <EditText
+                android:id="@+id/edtpass"
                 android:hint="Password"
                 android:inputType="numberPassword"
                 android:layout_width="match_parent"
@@ -71,6 +73,7 @@
 
         <!--login-->
 <Button
+    android:id="@+id/btnlogin"
     android:text="@string/Login_th"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
